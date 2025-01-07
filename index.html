@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./styles.css" rel="stylesheet"/>
+  <title>Document</title>
+</head>
+<body>
+  <div class="calculator">
+    <h2>VBucks Calculator</h2>
+    <p class="description">Convert VBucks to US Dollar and calculate the lowest price to buy a given item</p>
+    <div class="input-group">
+        <label for="cost">Cost in VBucks:</label>
+        <input type="number" id="cost" placeholder="Enter cost in VBucks">
+    </div>
+    <div class="input-group">
+        <label for="owned">Owned VBucks (optional):</label>
+        <input type="number" id="owned" placeholder="Enter owned VBucks">
+    </div>
+    <button onclick="calculate()">Calculate</button>
+    <div class="result" id="result">
+        <!-- Results will be displayed here -->
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>

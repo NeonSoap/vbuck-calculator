@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Fortnite";
+  src: url("./Fortnite.ttf");
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body {
+  font-family: 'Burbank Big Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #3c63d2, #9647f5);
+  color: #eee;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.calculator {
+  background: #1e1e2c;
+  border: 2px solid #3a3a5d;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  max-width: 400px;
+  width: 100%;
+}
+
+.calculator h2 {
+  font-family: "Fortnite", sans-serif;
+  margin: 30px 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 42px;
+  color: #00baff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.calculator .description {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 800;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #e3e3ff;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.4);
+  background: #2a2a3f;
+  color: #eee;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #00baff;
+  color: #eee;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 
+    background-color 0.3s,
+    color 0.3s;
+}
+
+button:hover {
+  background: #eee;
+  color: #1e1e2c;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  background: #2a2a3f;
+  border: 2px solid #3a3a5d;
+  border-radius: 10px;
+  color: #eee;
+  font-size: 18px;
+  text-align: center;
+  min-height: 74px;
+}
+
+.result p {
+  margin: 5px 0;
+  text-align: left;
+}
+
+.result p span {
+  float: right;
+  font-family: "Fortnite", sans-serif;
+  font-size: 20px;
+  color: #3dc8fa;
+}
