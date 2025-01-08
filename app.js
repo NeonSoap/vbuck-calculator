@@ -16,7 +16,7 @@ function calculate() {
   // Display results
   const resultDiv = document.getElementById('result');
   resultDiv.innerHTML = `
-      <p><strong>Required VBucks:</strong><span> ${requiredVBucks}</span></p>
+      <p><strong>Required V-Bucks:</strong><span> ${requiredVBucks}</span></p>
       <p><strong>USD equivalent:</strong><span> $${usdEquivalent}</span></p>
       <p><strong>Minimum cost to purchase:</strong><span> $${finalCost.totalCost.toFixed(2)}</span></p>
   `;
